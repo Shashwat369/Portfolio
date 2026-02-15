@@ -1,0 +1,27 @@
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import ProjectDetails from "./components/ProjectDetails";
+import Navbar from "./components/Navbar";
+
+function App() {
+  return (
+    <>
+    <Navbar/>
+      <Routes>
+        <Route path="/" element= {<Home />} />
+      
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:id" element={<ProjectDetails />} />
+        <Route path="/contact" element={<Contact />} />
+      
+      </Routes>
+    </>
+  );
+}
+
+export default App;
