@@ -25,34 +25,44 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between text-white">
-        
         {/* Logo */}
-<h1 className="text-2xl cursor-pointer font-bold tracking-widest text-white">
-  S<span className="text-blue-400">R</span>
-</h1>
-
+        <h1 className="text-2xl cursor-pointer font-bold tracking-widest text-white">
+          S<span className="text-blue-400">R</span>
+        </h1>
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-8 text-lg">
-          <Link to="/" className="hover:text-blue-400 transition duration-300">
+          <a
+            href="#home"
+            className="hover:text-blue-400 transition duration-300"
+          >
             Home
-          </Link>
-          <Link to="/about" className="hover:text-blue-400 transition duration-300">
+          </a>
+
+          <a
+            href="#journey"
+            className="hover:text-blue-400 transition duration-300"
+          >
             About
-          </Link>
-          <Link to="/projects" className="hover:text-blue-400 transition duration-300">
+          </a>
+
+          <a
+            href="#projects"
+            className="hover:text-blue-400 transition duration-300"
+          >
             Projects
-          </Link>
-          <Link to="/contact" className="hover:text-blue-400 transition duration-300">
+          </a>
+
+          <a
+            href="#contact"
+            className="hover:text-blue-400 transition duration-300"
+          >
             Contact
-          </Link>
+          </a>
         </div>
 
         {/* Mobile Toggle */}
-        <button
-          className="md:hidden"
-          onClick={() => setIsOpen(!isOpen)}
-        >
+        <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
@@ -95,5 +105,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-

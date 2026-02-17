@@ -1,15 +1,25 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import Education from '../components/Education'
+import Experience from '../components/Experience'
+import ProjectCards from '../components/ProjectCards'
+import Skills from '../components/Skills'
+import Journey from '../components/Journey'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 
 
 
 const Home = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Hero/>
-      <Education/>
+      <Experience/>
+      <ProjectCards/>
+      <Skills/>
+      <Journey/>
+      <Contact/>
+      <Footer/>
 
     </div>
   )
