@@ -20,14 +20,14 @@ const journeyData = [
       "Built multiple full-stack applications using React, Node.js, Express, and MongoDB. Focused on authentication, APIs, and scalable UI design.",
   },
   {
-    title: "Meetn – Video Conferencing Platform",
+    title: "Freelance Full Stack Developer",
     subtitle: {
-      role: "Frontend Developer",
-      company: "Whizlancer Infotech Pvt Ltd",
-      duration: "Nov 2024 – Dec 2025",
+      role: "MERN Stack Developer",
+      company: "Independent Clients",
+      duration: "Nov 2023 – Present",
     },
     description:
-      "Worked on a real-time video conferencing platform using React, WebRTC, and Socket.io. Built meeting flows, authentication, and responsive frontend architecture.",
+      "Developed end-to-end web applications for local businesses to automate daily workflows, including gym and retail shop automation. Designed REST APIs, implemented secure JWT authentication, and integrated MongoDB to digitize 50+ daily operational records.",
   },
   {
     title: "MERN Stack Certification",
@@ -98,7 +98,9 @@ const Journey = () => {
                         </span>
                       </>
                     ) : (
-                      item.subtitle
+                      <span className="block text-gray-400">
+                        {item.subtitle}
+                      </span>
                     )}
                   </p>
 

@@ -37,26 +37,24 @@ const Experience = () => {
           <div className="ml-12 md:ml-0 bg-slate-900 p-6 rounded-xl shadow-lg border border-slate-700 hover:border-blue-500 transition duration-300">
             
             <h3 className="text-lg sm:text-xl font-semibold mb-2">
-              Meetn – Video Conferencing Platform
+              Freelance Full Stack Developer
             </h3>
 
             <p className="text-blue-400 text-sm mb-3">
-              Frontend Developer | Whizlancer Infotech Pvt Ltd
+              Independent Clients | Custom Business Solutions
               <br className="md:hidden" />
               <span className="text-gray-400 ml-1">
-                (Nov 2024 – Dec 2025)
+                (Nov 2023 – Present)
               </span>
             </p>
 
             <p className="text-gray-400 text-sm leading-relaxed">
-              Developed a real-time video conferencing frontend using React,
-              WebRTC, and Socket.io. Implemented authentication, meeting flows,
-              real-time chat, and responsive UI with optimized performance.
+              Developed end-to-end web applications for local businesses to automate daily workflows, including gym and retail shop automation. Designed REST APIs and integrated database management to digitize 50+ daily operational records and implemented secure authentication.
             </p>
 
             {/* Tech Stack */}
             <div className="flex flex-wrap gap-2 mt-4">
-              {["React", "WebRTC", "Socket.io", "JWT"].map(
+              {["React.js", "Redux", "Node.js", "Express.js", "MongoDB", "REST APIs", "JWT Auth"].map(
                 (tech, index) => (
                   <span
                     key={index}
