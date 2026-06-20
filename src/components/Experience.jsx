@@ -37,7 +37,7 @@ const Experience = () => {
             </h3>
 
             <p className="text-gray-300 text-sm mb-3 font-medium">
-              Whizlancer Infotech pvt. ltd.
+              Freelance | <span className="text-blue-400">Remote</span> <br className="md:hidden" />
               <br className="md:hidden" />
               <span className="text-gray-500 ml-1">
                 (Nov 2023 – Present)
@@ -45,7 +45,7 @@ const Experience = () => {
             </p>
 
             <p className="text-gray-400 text-sm leading-relaxed">
-              Spearheading the development of high-performance frontend architectures[cite: 57, 58]. Digitized 50+ daily operational records for retail and fitness clients by engineering custom workflow applications[cite: 67]. Architected responsive dashboards and implemented secure role-based JWT authentication for scalable web ecosystems[cite: 69, 70].
+              Spearheading the development of high-performance frontend architectures. Digitized 50+ daily operational records for retail and fitness clients by engineering custom workflow applications. Architected responsive dashboards and implemented secure role-based JWT authentication for scalable web ecosystems.
             </p>
 
             <div className="flex flex-wrap gap-2 mt-4">

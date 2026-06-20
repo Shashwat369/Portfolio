@@ -11,7 +11,7 @@ const journeyData = [
     title: "Frontend Engineer",
     subtitle: {
       role: "MERN Stack Specialist",
-      company: "Whizlancer Infotech pvt. ltd.",
+      company: "Freelance | Remote",
       duration: "Nov 2023 – Present",
     },
     description:
